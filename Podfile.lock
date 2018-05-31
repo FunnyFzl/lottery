@@ -5,6 +5,9 @@ PODS:
   - Bamboots (0.6.0):
     - Alamofire
     - AlamofireCodable
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Swift (3.4.2):
+    - CocoaLumberjack/Default
   - ESPullToRefresh (2.7)
   - Gemini (1.3.0)
   - Hero (1.2.0)
@@ -23,9 +26,6 @@ PODS:
   - NotificationBannerSwift (1.6.3):
     - MarqueeLabel/Swift
     - SnapKit (~> 4.0)
-  - ObjcExceptionBridging (1.0.1):
-    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
-  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
   - PhoneNumberKit (2.1.0):
     - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
     - PhoneNumberKit/UIKit (= 2.1.0)
@@ -46,14 +46,11 @@ PODS:
   - Toolbar (0.2.0)
   - ViewAnimator (2.1.1)
   - Whisper (6.0.2)
-  - XCGLogger (6.0.2):
-    - XCGLogger/Core (= 6.0.2)
-  - XCGLogger/Core (6.0.2):
-    - ObjcExceptionBridging
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - Bamboots
+  - CocoaLumberjack/Swift
   - ESPullToRefresh
   - Gemini
   - Hero
@@ -78,13 +75,13 @@ DEPENDENCIES:
   - Toolbar
   - ViewAnimator
   - Whisper
-  - XCGLogger (~> 6.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireCodable
     - Bamboots
+    - CocoaLumberjack
     - ESPullToRefresh
     - Gemini
     - Hero
@@ -97,7 +94,6 @@ SPEC REPOS:
     - Moya
     - NextGrowingTextView
     - NotificationBannerSwift
-    - ObjcExceptionBridging
     - PhoneNumberKit
     - PKHUD
     - RAMAnimatedTabBarController
@@ -112,12 +108,12 @@ SPEC REPOS:
     - Toolbar
     - ViewAnimator
     - Whisper
-    - XCGLogger
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   AlamofireCodable: 55cd99b65e96dc0ef690aa3933cf65189095b4e8
   Bamboots: 175c77c65cece2155044ad59626f1913caa3780d
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
   Gemini: 1a932868fa70579457162c3a93cd844ad5df3455
   Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
@@ -130,7 +126,6 @@ SPEC CHECKSUMS:
   Moya: a725035953bc1c0eb1be505ab903984501d82440
   NextGrowingTextView: 78c8b96f7ac6dc845f5babb27dcf7c18dd3210ec
   NotificationBannerSwift: b231e4c3244848ef300e1c53ce027b9756b9b06f
-  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
   PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
   PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
   RAMAnimatedTabBarController: 0499157f67053a21bcccb52a25dd3c6ecdbfb4f6
@@ -145,8 +140,7 @@ SPEC CHECKSUMS:
   Toolbar: 2959f4ff82bcebd3ecf66b8ca24552583d298949
   ViewAnimator: 43c31539508d995ea2c5e98338211f7c009b358f
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
-  XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
 
-PODFILE CHECKSUM: 08489cd410dd977a26b5212bc84081ee5fef540b
+PODFILE CHECKSUM: 403712b68ace242da3b4834c6e1f231ce97258b9
 
 COCOAPODS: 1.5.3

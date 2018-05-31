@@ -23,7 +23,7 @@ target 'APP' do
     pod 'Spring'
     pod 'KeychainAccess'
     pod 'PhoneNumberKit', '~> 2.1'
-    pod 'XCGLogger', '~> 6.0.2'
+    pod 'CocoaLumberjack/Swift'
     pod "SkeletonView"
     pod "ViewAnimator"
     pod "Gemini"
