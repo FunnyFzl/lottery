@@ -1,0 +1,152 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireCodable (0.1.1):
+    - Alamofire
+  - Bamboots (0.6.0):
+    - Alamofire
+    - AlamofireCodable
+  - ESPullToRefresh (2.7)
+  - Gemini (1.3.0)
+  - Hero (1.2.0)
+  - Hue (3.0.1)
+  - IQKeyboardManagerSwift (6.0.3)
+  - KeychainAccess (3.1.1)
+  - Kingfisher (4.8.0)
+  - LTMorphingLabel (0.5.6)
+  - MarqueeLabel/Swift (3.1.4)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - NextGrowingTextView (1.2.2)
+  - NotificationBannerSwift (1.6.3):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PhoneNumberKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.1.0)
+    - PhoneNumberKit/UIKit (= 2.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.1.0)
+  - PhoneNumberKit/UIKit (2.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PKHUD (5.0.0)
+  - RAMAnimatedTabBarController (3.2.0)
+  - Result (3.2.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SkeletonView (1.2)
+  - SnapKit (4.0.0)
+  - Spring (1.0.5)
+  - SwiftyUserDefaults (3.0.1)
+  - SwipeCellKit (2.4.1)
+  - Toolbar (0.2.0)
+  - ViewAnimator (2.1.1)
+  - Whisper (6.0.2)
+  - XCGLogger (6.0.2):
+    - XCGLogger/Core (= 6.0.2)
+  - XCGLogger/Core (6.0.2):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Bamboots
+  - ESPullToRefresh
+  - Gemini
+  - Hero
+  - Hue
+  - IQKeyboardManagerSwift
+  - KeychainAccess
+  - Kingfisher
+  - LTMorphingLabel
+  - Moya (~> 11.0)
+  - NextGrowingTextView
+  - NotificationBannerSwift
+  - PhoneNumberKit (~> 2.1)
+  - PKHUD (~> 5.0)
+  - RAMAnimatedTabBarController
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SkeletonView
+  - SnapKit (~> 4.0.0)
+  - Spring
+  - SwiftyUserDefaults
+  - SwipeCellKit
+  - Toolbar
+  - ViewAnimator
+  - Whisper
+  - XCGLogger (~> 6.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireCodable
+    - Bamboots
+    - ESPullToRefresh
+    - Gemini
+    - Hero
+    - Hue
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - LTMorphingLabel
+    - MarqueeLabel
+    - Moya
+    - NextGrowingTextView
+    - NotificationBannerSwift
+    - ObjcExceptionBridging
+    - PhoneNumberKit
+    - PKHUD
+    - RAMAnimatedTabBarController
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SkeletonView
+    - SnapKit
+    - Spring
+    - SwiftyUserDefaults
+    - SwipeCellKit
+    - Toolbar
+    - ViewAnimator
+    - Whisper
+    - XCGLogger
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireCodable: 55cd99b65e96dc0ef690aa3933cf65189095b4e8
+  Bamboots: 175c77c65cece2155044ad59626f1913caa3780d
+  ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
+  Gemini: 1a932868fa70579457162c3a93cd844ad5df3455
+  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  KeychainAccess: 7bd430028059754a3debab3cfc0bd1fc7fb85df3
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  LTMorphingLabel: bdb51d4682e9822da89da6f567bd8aa456fd6650
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  NextGrowingTextView: 78c8b96f7ac6dc845f5babb27dcf7c18dd3210ec
+  NotificationBannerSwift: b231e4c3244848ef300e1c53ce027b9756b9b06f
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  RAMAnimatedTabBarController: 0499157f67053a21bcccb52a25dd3c6ecdbfb4f6
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SkeletonView: d68962d45d1af038f6a110d2274b183df8f82752
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  SwipeCellKit: 189dab685734056ce3c803842759b73b8d6aa65f
+  Toolbar: 2959f4ff82bcebd3ecf66b8ca24552583d298949
+  ViewAnimator: 43c31539508d995ea2c5e98338211f7c009b358f
+  Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
+  XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
+
+PODFILE CHECKSUM: 08489cd410dd977a26b5212bc84081ee5fef540b
+
+COCOAPODS: 1.5.3
