@@ -6,12 +6,12 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "houses@2x.png",
+      "filename" : "Houses@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "houses@3x.png",
+      "filename" : "Houses@3x.png",
       "scale" : "3x"
     }
   ],
