@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		987244FAE380CC929D12B933 /* Pods_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C077E6A38CD65EEACC02AAB5 /* Pods_APP.framework */; };
-		B47758BB20EDDF9400D74C30 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758BA20EDDF9400D74C30 /* BaseViewController.swift */; };
-		B47758C220EDDFF300D74C30 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758C120EDDFF300D74C30 /* BaseViewModel.swift */; };
-		B47758C420EDE00000D74C30 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758C320EDE00000D74C30 /* BaseView.swift */; };
-		B47758C620EDE01200D74C30 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758C520EDE01200D74C30 /* BaseModel.swift */; };
 		B47758CC20EE337100D74C30 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758CB20EE337100D74C30 /* BaseTabBarController.swift */; };
 		B47758CF20EE39BB00D74C30 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758CE20EE39BB00D74C30 /* BaseNavigationController.swift */; };
 		B47758D720EE3EA200D74C30 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758D620EE3EA200D74C30 /* HomePageViewController.swift */; };
 		B47758DD20EE40DC00D74C30 /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758DC20EE40DC00D74C30 /* HouseViewController.swift */; };
 		B47758E320EF51FB00D74C30 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758E220EF51FB00D74C30 /* UIButtonExtension.swift */; };
 		B47758E520F34C7200D74C30 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47758E420F34C7200D74C30 /* BaseRequest.swift */; };
+		B49A29322137915E00551684 /* ControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A29312137915E00551684 /* ControllerExtension.swift */; };
+		B49A29342137917C00551684 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A29332137917C00551684 /* ViewExtension.swift */; };
+		B4B05DAB213D382A00BC3F4A /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B05DAA213D382A00BC3F4A /* TableViewExtension.swift */; };
 		B4CB1F7420F7672400C7C65D /* APP_PCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB1F7320F7672400C7C65D /* APP_PCH.swift */; };
 		B4E5418420BEA7E200646D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5418320BEA7E200646D5F /* AppDelegate.swift */; };
 		B4E5418620BEA7E200646D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5418520BEA7E200646D5F /* ViewController.swift */; };
@@ -46,16 +45,15 @@
 
 /* Begin PBXFileReference section */
 		79E1BD5B15020D91428C4CE9 /* Pods-APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-APP/Pods-APP.release.xcconfig"; sourceTree = "<group>"; };
-		B47758BA20EDDF9400D74C30 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		B47758C120EDDFF300D74C30 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
-		B47758C320EDE00000D74C30 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		B47758C520EDE01200D74C30 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		B47758CB20EE337100D74C30 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		B47758CE20EE39BB00D74C30 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		B47758D620EE3EA200D74C30 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		B47758DC20EE40DC00D74C30 /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		B47758E220EF51FB00D74C30 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		B47758E420F34C7200D74C30 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		B49A29312137915E00551684 /* ControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtension.swift; sourceTree = "<group>"; };
+		B49A29332137917C00551684 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		B4B05DAA213D382A00BC3F4A /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		B4CB1F7320F7672400C7C65D /* APP_PCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP_PCH.swift; sourceTree = "<group>"; };
 		B4E5418020BEA7E200646D5F /* APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E5418320BEA7E200646D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,62 +117,18 @@
 		B47758B920EDDF5200D74C30 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B47758BF20EDDF9D00D74C30 /* Controller */,
-				B47758BC20EDDF9700D74C30 /* ViewModel */,
-				B47758BE20EDDF9B00D74C30 /* View */,
-				B47758BD20EDDF9900D74C30 /* Model */,
-				B47758C020EDDFBF00D74C30 /* Service */,
+				B47758E420F34C7200D74C30 /* BaseRequest.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		B47758BC20EDDF9700D74C30 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B47758C120EDDFF300D74C30 /* BaseViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		B47758BD20EDDF9900D74C30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B47758C520EDE01200D74C30 /* BaseModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B47758BE20EDDF9B00D74C30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B47758C320EDE00000D74C30 /* BaseView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B47758BF20EDDF9D00D74C30 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B47758BA20EDDF9400D74C30 /* BaseViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B47758C020EDDFBF00D74C30 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				B47758E420F34C7200D74C30 /* BaseRequest.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		B47758C720EE312A00D74C30 /* Moudles */ = {
+		B47758C720EE312A00D74C30 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				B47758D020EE3E3A00D74C30 /* House */,
 				B47758D120EE3E4300D74C30 /* HomePage */,
 			);
-			path = Moudles;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B47758C820EE313B00D74C30 /* TabBar */ = {
@@ -295,11 +249,11 @@
 		B47758E020EF519500D74C30 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B4CB1F7020F7557D00C7C65D /* Config */,
-				B47758B920EDDF5200D74C30 /* Base */,
 				B47758C820EE313B00D74C30 /* TabBar */,
 				B47758CD20EE39A100D74C30 /* Navigation */,
+				B47758B920EDDF5200D74C30 /* Base */,
 				B47758E120EF51BD00D74C30 /* Extensions */,
+				B4CB1F7020F7557D00C7C65D /* Config */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -307,6 +261,9 @@
 		B47758E120EF51BD00D74C30 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B49A29312137915E00551684 /* ControllerExtension.swift */,
+				B49A29332137917C00551684 /* ViewExtension.swift */,
+				B4B05DAA213D382A00BC3F4A /* TableViewExtension.swift */,
 				B47758E220EF51FB00D74C30 /* UIButtonExtension.swift */,
 			);
 			path = Extensions;
@@ -347,7 +304,7 @@
 			children = (
 				B47758DE20EF4E6900D74C30 /* AppDelegate */,
 				B47758E020EF519500D74C30 /* Core */,
-				B47758C720EE312A00D74C30 /* Moudles */,
+				B47758C720EE312A00D74C30 /* Classes */,
 				B47758DF20EF4E7E00D74C30 /* Source */,
 			);
 			path = APP;
@@ -528,6 +485,7 @@
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
@@ -535,6 +493,7 @@
 				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
@@ -551,6 +510,7 @@
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftEntryKit/SwiftEntryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyAttributes/SwiftyAttributes.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
@@ -566,6 +526,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
@@ -573,6 +534,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
@@ -589,6 +551,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEntryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAttributes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
@@ -613,16 +576,15 @@
 				B4CB1F7420F7672400C7C65D /* APP_PCH.swift in Sources */,
 				B47758CF20EE39BB00D74C30 /* BaseNavigationController.swift in Sources */,
 				B47758CC20EE337100D74C30 /* BaseTabBarController.swift in Sources */,
+				B4B05DAB213D382A00BC3F4A /* TableViewExtension.swift in Sources */,
 				B47758D720EE3EA200D74C30 /* HomePageViewController.swift in Sources */,
-				B47758C620EDE01200D74C30 /* BaseModel.swift in Sources */,
+				B49A29322137915E00551684 /* ControllerExtension.swift in Sources */,
 				B4E5418620BEA7E200646D5F /* ViewController.swift in Sources */,
 				B47758DD20EE40DC00D74C30 /* HouseViewController.swift in Sources */,
-				B47758C220EDDFF300D74C30 /* BaseViewModel.swift in Sources */,
-				B47758C420EDE00000D74C30 /* BaseView.swift in Sources */,
+				B49A29342137917C00551684 /* ViewExtension.swift in Sources */,
 				B47758E520F34C7200D74C30 /* BaseRequest.swift in Sources */,
 				B4E5418420BEA7E200646D5F /* AppDelegate.swift in Sources */,
 				B47758E320EF51FB00D74C30 /* UIButtonExtension.swift in Sources */,
-				B47758BB20EDDF9400D74C30 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,7 +754,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/APP/Source/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -814,7 +776,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/APP/Source/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

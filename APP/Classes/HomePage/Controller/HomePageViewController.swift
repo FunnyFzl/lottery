@@ -1,5 +1,5 @@
 //
-//  HouseViewController.swift
+//  HomePageViewController.swift
 //  APP
 //
 //  Created by funny on 2018/7/5.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HouseViewController: BaseViewController {
+class HomePageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

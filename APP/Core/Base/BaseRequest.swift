@@ -10,7 +10,7 @@ import Foundation
 import Moya
 
 enum BaseService {
-    case login(phone: String ,code: String)
+    case login(phone: String, code: String)
 }
 
 extension BaseService : TargetType {

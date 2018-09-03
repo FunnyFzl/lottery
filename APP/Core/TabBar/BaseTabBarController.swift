@@ -28,6 +28,7 @@ extension BaseTabBarController {
 
         let house = HouseViewController()
         let homePage = HomePageViewController()
+        
 
         addOneChildrenVC(childVC: house, title: "列表", image: UIImage(named: "Houses"), selectedImage: UIImage(named: "Houses"))
 
@@ -36,7 +37,7 @@ extension BaseTabBarController {
 
 
     // MARK: - 添加一个控制器
-    func addOneChildrenVC(childVC: BaseViewController, title: String?, image: UIImage? ,selectedImage: UIImage?) -> () {
+    func addOneChildrenVC(childVC: UIViewController, title: String?, image: UIImage? ,selectedImage: UIImage?) -> () {
 
         let navigationVC = BaseNavigationController(rootViewController: childVC)
         self.addChildViewController(navigationVC)

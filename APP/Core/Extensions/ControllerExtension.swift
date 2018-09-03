@@ -1,20 +1,15 @@
 //
-//  BaseViewController.swift
+//  ControllerExtension.swift
 //  APP
 //
-//  Created by funny on 2018/7/5.
+//  Created by funny on 2018/8/30.
 //  Copyright © 2018年 Funny. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class BaseViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        BaseViewModel().request()
-    }
+@objc extension UIViewController {
 
     // MARK: - 处理所有事件
     public func handleActions() -> () {

@@ -33,8 +33,11 @@ target 'APP' do
 #    pod 'EZSwiftExtensions', '1.11'                # 提供了一系列对于 Swift 标准库、方法与 UIKit 的扩展
     pod 'CryptoSwift', '0.10.0'                    # 加密
     pod 'PhoneNumberKit', '2.1.0'
-    pod 'Schedule'                                 #Schedule它可以让你用难以置信的友好语法执行定时任务
-    pod 'WeScan', '>= 0.9'                         #轻松地为您的iOS应用添加扫描功能
+    pod 'Schedule', '0.1.0'                                 #Schedule它可以让你用难以置信的友好语法执行定时任务
+    pod 'WeScan', '0.9.1'                         #轻松地为您的iOS应用添加扫描功能
     pod 'SwiftEntryKit', '0.5.9'                   #iOS的横幅
-    pod 'Charts'                                   #图表
+    pod 'Charts', '3.1.1'                                   #图表
+    pod 'SwiftTheme', '0.4.1'
+    pod 'MJRefresh', '3.1.15.6'
+    pod 'EmptyDataSet-Swift', '~> 4.0.5'
 end
