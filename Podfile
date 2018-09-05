@@ -12,7 +12,8 @@ target 'APP' do
     pod 'RxCocoa',    '4.1.2'
     pod 'Kingfisher', '4.8.0'
     pod 'SwiftyUserDefaults', '3.0.1'
-    pod 'RAMAnimatedTabBarController', '3.2.0'
+#    pod 'RAMAnimatedTabBarController', '3.2.0'
+    pod "ESTabBarController-swift"
     pod 'IQKeyboardManagerSwift', '6.0.3'
     pod 'SwiftyAttributes', '5.0.0'                # 用于属性字符串的Swifty API
     pod 'PKHUD', '5.0.0'                           # 适用于iOS 8的基于Swift的Apple HUD

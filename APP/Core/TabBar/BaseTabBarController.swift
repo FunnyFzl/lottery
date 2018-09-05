@@ -7,48 +7,28 @@
 //
 
 import UIKit
-import RAMAnimatedTabBarController
+import ESTabBarController_swift
 
-class BaseTabBarController: RAMAnimatedTabBarController {
+class BaseTabBarController: ESTabBarController {
 
     override func viewDidLoad() {
+        super.viewDidLoad()
 
         view.backgroundColor = UIColor.white
 
-        addAllChildsControllors()
-
-        super.viewDidLoad()
-    }
-}
-
-extension BaseTabBarController {
-
-    // MARK: - 添加所有的子控制器
-    fileprivate func addAllChildsControllors() -> () {
-
-        let house = HouseViewController()
-        let homePage = HomePageViewController()
-        
-
-        addOneChildrenVC(childVC: house, title: "列表", image: UIImage(named: "Houses"), selectedImage: UIImage(named: "Houses"))
-
-        addOneChildrenVC(childVC: homePage, title: "我的", image: UIImage(named: "Home_Page"), selectedImage: UIImage(named: "Home_Page"))
+        setupUI()
     }
 
+    override func setupUI() {
 
-    // MARK: - 添加一个控制器
-    func addOneChildrenVC(childVC: UIViewController, title: String?, image: UIImage? ,selectedImage: UIImage?) -> () {
+        let v1 = HouseViewController()
+        let v2 = HomePageViewController()
+        v1.tabBarItem = ESTabBarItem.init(BaseTabBarItemContentView(), title: "列表", image: UIImage(named: "Houses"), selectedImage: UIImage(named: "Houses"))
+        v2.tabBarItem = ESTabBarItem.init(BaseTabBarItemContentView(), title: "我的", image: UIImage(named: "Home_Page"), selectedImage: UIImage(named: "Home_Page"))
 
-        let navigationVC = BaseNavigationController(rootViewController: childVC)
-        self.addChildViewController(navigationVC)
+        let n1 = BaseNavigationController.init(rootViewController: v1)
+        let n2 = BaseNavigationController.init(rootViewController: v2)
 
-        let tabItem = RAMAnimatedTabBarItem(title: title, image: image, selectedImage: selectedImage)
-        navigationVC.tabBarItem = tabItem
-
-        let animation = RAMBounceAnimation()
-        animation.iconSelectedColor = UIColor.red
-        animation.textSelectedColor = UIColor.red
-        tabItem.animation = animation
+        self.viewControllers = [n1, n2]
     }
-
 }

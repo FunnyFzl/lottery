@@ -17,6 +17,7 @@
 		B49A29322137915E00551684 /* ControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A29312137915E00551684 /* ControllerExtension.swift */; };
 		B49A29342137917C00551684 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49A29332137917C00551684 /* ViewExtension.swift */; };
 		B4B05DAB213D382A00BC3F4A /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B05DAA213D382A00BC3F4A /* TableViewExtension.swift */; };
+		B4B05DAD213FB77B00BC3F4A /* BaseTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B05DAC213FB77B00BC3F4A /* BaseTabBarItemContentView.swift */; };
 		B4CB1F7420F7672400C7C65D /* APP_PCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CB1F7320F7672400C7C65D /* APP_PCH.swift */; };
 		B4E5418420BEA7E200646D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5418320BEA7E200646D5F /* AppDelegate.swift */; };
 		B4E5418620BEA7E200646D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E5418520BEA7E200646D5F /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		B49A29312137915E00551684 /* ControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerExtension.swift; sourceTree = "<group>"; };
 		B49A29332137917C00551684 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		B4B05DAA213D382A00BC3F4A /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		B4B05DAC213FB77B00BC3F4A /* BaseTabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarItemContentView.swift; sourceTree = "<group>"; };
 		B4CB1F7320F7672400C7C65D /* APP_PCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APP_PCH.swift; sourceTree = "<group>"; };
 		B4E5418020BEA7E200646D5F /* APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E5418320BEA7E200646D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				B47758CB20EE337100D74C30 /* BaseTabBarController.swift */,
+				B4B05DAC213FB77B00BC3F4A /* BaseTabBarItemContentView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -151,9 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				B47758D820EE40AE00D74C30 /* Controller */,
-				B47758DA20EE40BB00D74C30 /* ViewModel */,
-				B47758DB20EE40C800D74C30 /* View */,
-				B47758D920EE40B800D74C30 /* Model */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -162,9 +162,6 @@
 			isa = PBXGroup;
 			children = (
 				B47758D220EE3E5800D74C30 /* Controller */,
-				B47758D520EE3E7000D74C30 /* ViewModel */,
-				B47758D420EE3E6C00D74C30 /* View */,
-				B47758D320EE3E6700D74C30 /* Model */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -177,54 +174,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		B47758D320EE3E6700D74C30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B47758D420EE3E6C00D74C30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		B47758D520EE3E7000D74C30 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		B47758D820EE40AE00D74C30 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				B47758DC20EE40DC00D74C30 /* HouseViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		B47758D920EE40B800D74C30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B47758DA20EE40BB00D74C30 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		B47758DB20EE40C800D74C30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		B47758DE20EF4E6900D74C30 /* AppDelegate */ = {
@@ -485,6 +440,7 @@
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
@@ -500,7 +456,6 @@
 				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/QuickLayout/QuickLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -526,6 +481,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
@@ -541,7 +497,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -581,6 +536,7 @@
 				B49A29322137915E00551684 /* ControllerExtension.swift in Sources */,
 				B4E5418620BEA7E200646D5F /* ViewController.swift in Sources */,
 				B47758DD20EE40DC00D74C30 /* HouseViewController.swift in Sources */,
+				B4B05DAD213FB77B00BC3F4A /* BaseTabBarItemContentView.swift in Sources */,
 				B49A29342137917C00551684 /* ViewExtension.swift in Sources */,
 				B47758E520F34C7200D74C30 /* BaseRequest.swift in Sources */,
 				B4E5418420BEA7E200646D5F /* AppDelegate.swift in Sources */,

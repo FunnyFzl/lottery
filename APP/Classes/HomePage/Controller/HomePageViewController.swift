@@ -14,5 +14,6 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = "Funny"
 
+        view.backgroundColor = .red
     }
 }
