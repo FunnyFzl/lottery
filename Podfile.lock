@@ -3,9 +3,6 @@ PODS:
   - Charts (3.1.1):
     - Charts/Core (= 3.1.1)
   - Charts/Core (3.1.1)
-  - CocoaLumberjack/Default (3.4.2)
-  - CocoaLumberjack/Swift (3.4.2):
-    - CocoaLumberjack/Default
   - CryptoSwift (0.10.0)
   - EmptyDataSet-Swift (4.0.5)
   - ESTabBarController-swift (2.6.2)
@@ -58,7 +55,6 @@ PODS:
 DEPENDENCIES:
   - Alamofire (= 4.7.2)
   - Charts (= 3.1.1)
-  - CocoaLumberjack/Swift (= 3.4.2)
   - CryptoSwift (= 0.10.0)
   - EmptyDataSet-Swift (~> 4.0.5)
   - ESTabBarController-swift
@@ -96,7 +92,6 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Charts
-    - CocoaLumberjack
     - CryptoSwift
     - EmptyDataSet-Swift
     - ESTabBarController-swift
@@ -136,7 +131,6 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
-  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
   EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
@@ -173,6 +167,6 @@ SPEC CHECKSUMS:
   WeScan: 85518097ab11d38be3b3a6e0ae244d59bc8071b4
   Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
 
-PODFILE CHECKSUM: 55fbbe9ff25c926a577aab615fe140e501458fd6
+PODFILE CHECKSUM: de347874cc4aa28d8e61f9e54b0a04f5833db1fd
 
 COCOAPODS: 1.5.3

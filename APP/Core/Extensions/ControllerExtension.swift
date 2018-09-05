@@ -18,6 +18,6 @@ import UIKit
 
     // MARK: - 添加UI
     public func setupUI() -> () {
-        self.automaticallyAdjustsScrollViewInsets = false
+
     }
 }

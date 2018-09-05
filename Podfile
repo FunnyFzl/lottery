@@ -22,7 +22,7 @@ target 'APP' do
     pod 'NotificationBannerSwift', '1.6.3'         # 在iOS中显示高度可自定义的应用通知横幅的最简单方法
     pod 'Spring', '1.0.5'                          # 一个简化Swift中iOS动画的库
     pod 'KeychainAccess', '3.1.1'                  # 轻量级 Keychain 封装，支持 TouchID 与 Keychain 整合
-    pod 'CocoaLumberjack/Swift', '3.4.2'           # 快速，简单但功能强大且灵活的Mac和iOS日志框架
+#    pod 'CocoaLumberjack/Swift', '3.4.2'           # 快速，简单但功能强大且灵活的Mac和iOS日志框架
     pod "SkeletonView"                             # 等待骨架
     pod "ViewAnimator"                             # iOS UIView动画的库
     pod "Gemini"                                   # 用于iOS的丰富的基于滚动的动画框架

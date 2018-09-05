@@ -13,9 +13,13 @@ extension UIButton {
 
     public func setTitle(title: String?, titleColor: UIColor?, font: UIFont? ) -> () {
 
+        if title?.count == 0 {
+            return
+        }
         setTitle(title, for: .normal)
         setTitleColor(titleColor, for: .normal)
         titleLabel?.font = font
     }
+
 }
 
