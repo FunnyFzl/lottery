@@ -15,10 +15,11 @@ class BaseTabBarItemContentView: ESTabBarItemContentView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        textColor = FRandomColor.withAlphaComponent(0.5)
-        highlightTextColor = FRandomColor
-        iconColor = FRandomColor.withAlphaComponent(0.5)
-        highlightIconColor = FRandomColor
+        textColor = UIColor.singleColor(51, 1).withAlphaComponent(0.5)
+        highlightTextColor = UIColor.singleColor(51, 1)
+        iconColor = UIColor.singleColor(51, 1).withAlphaComponent(0.5)
+        highlightIconColor = UIColor.singleColor(51, 1)
+        insets = UIEdgeInsets.init(top: 0, left: 0, bottom: 2, right: 0)
     }
 
     override func selectAnimation(animated: Bool, completion: (() -> ())?) {
@@ -29,6 +30,12 @@ class BaseTabBarItemContentView: ESTabBarItemContentView {
     override func reselectAnimation(animated: Bool, completion: (() -> ())?) {
         bounceAnimation()
         completion?()
+    }
+
+    override func updateLayout() {
+        super.updateLayout()
+
+        self.titleLabel.font = UIFont.themeFont(10)
     }
 
     func bounceAnimation() {

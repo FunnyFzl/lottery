@@ -6,7 +6,6 @@
 //  Copyright © 2018年 Funny. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import SwiftyAttributes
 import MJRefresh
@@ -26,9 +25,9 @@ extension UITableView {
         header.setTitle("谁在拉我？！", for: MJRefreshState.idle)
         header.setTitle("快松开！", for: MJRefreshState.pulling)
         header.setTitle("这是自由的感觉...", for: MJRefreshState.refreshing)
-        header.stateLabel.textColor = FRandomColor
-        header.lastUpdatedTimeLabel.font = FFont(12)
-        header.lastUpdatedTimeLabel.textColor = FRandomColor
+        header.stateLabel.textColor = UIColor.random
+        header.lastUpdatedTimeLabel.font = UIFont.themeFont(12)
+        header.lastUpdatedTimeLabel.textColor = UIColor.random
         header.isAutomaticallyChangeAlpha = true
         self.mj_header = header
     }

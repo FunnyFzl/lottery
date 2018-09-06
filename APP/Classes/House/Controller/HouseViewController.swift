@@ -12,7 +12,7 @@ class HouseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Funny"
+        self.navigationItem.title = "神算子"
 
         setupUI()
     }
