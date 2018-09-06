@@ -19,6 +19,5 @@ extension UIButton {
         setTitleColor(titleColor, for: .normal)
         titleLabel?.font = font
     }
-
 }
 

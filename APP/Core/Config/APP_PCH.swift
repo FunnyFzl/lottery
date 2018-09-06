@@ -20,18 +20,9 @@ public func kHeight(_ x: CGFloat) -> CGFloat {
     return x * (FScreenHeight == 812 ? 1 : FScreenHeight / 667.0)
 }
 
-public let isPad: Bool = UIDevice.current.userInterfaceIdiom == .pad
-
-public func iOS9_OR_LATER() -> Bool {
-    if #available(iOS 9.0, *) {
-        return true
-    }
-    return false
-}
-
 public let isIPhoneX: Bool =
     (UIScreen.instancesRespond(to: #selector(getter: UIScreen.currentMode))
-        && (Int(FScreenHeight)) == 2_436)
+        && (Int(FScreenHeight)) == 812)
 
 public let kDocumentPath =
     NSSearchPathForDirectoriesInDomains(
