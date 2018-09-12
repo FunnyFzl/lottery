@@ -35,7 +35,7 @@ class BaseTabBarItemContentView: ESTabBarItemContentView {
     override func updateLayout() {
         super.updateLayout()
 
-        self.titleLabel.font = UIFont.themeFont(10)
+        self.titleLabel.font = UIFont.fontTheme(10)
     }
 
     func bounceAnimation() {

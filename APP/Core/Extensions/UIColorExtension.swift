@@ -21,9 +21,10 @@ extension UIColor {
 
     //设置随机色
     class var random: UIColor {
-        return UIColor(arc4random_uniform(256),
-                       arc4random_uniform(256),
-                       arc4random_uniform(256))
+        return UIColor(arc4random_uniform(256) + 1,
+                       arc4random_uniform(256) + 1,
+                       arc4random_uniform(256) + 1,
+                       CGFloat(arc4random_uniform(100))/100)
     }
 
     //设置单色

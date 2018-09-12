@@ -13,6 +13,26 @@ import SwiftDate
 
 extension UITableView {
 
+    // static和class 一样都表示类型范围作用域 static包含了final关键字的特性
+    static var key: UnsafeRawPointer! {
+        return UnsafeRawPointer.init(bitPattern: "UITableView.dataModels.key".hashValue)
+    }
+
+    // 数据源
+    var dataModels: Array<Any> {
+
+        set {
+            objc_setAssociatedObject(self, UITableView.key, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+
+        get {
+            if let ar = objc_getAssociatedObject(self, UITableView.key) as? Array<Any> {
+                return ar
+            }
+            return []
+        }
+    }
+
     // MARK: - 去除FooterView
     public func removeTableFooterView() -> () {
         self.tableFooterView = UIView()
@@ -25,9 +45,8 @@ extension UITableView {
         header.setTitle("谁在拉我？！", for: MJRefreshState.idle)
         header.setTitle("快松开！", for: MJRefreshState.pulling)
         header.setTitle("这是自由的感觉...", for: MJRefreshState.refreshing)
-        header.stateLabel.textColor = UIColor.random
-        header.lastUpdatedTimeLabel.font = UIFont.themeFont(12)
-        header.lastUpdatedTimeLabel.textColor = UIColor.random
+        header.stateLabel.font = UIFont.fontTheme(12)
+        header.lastUpdatedTimeLabel.font = UIFont.fontTheme(12)
         header.isAutomaticallyChangeAlpha = true
         self.mj_header = header
     }

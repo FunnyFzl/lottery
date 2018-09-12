@@ -21,14 +21,11 @@ class BaseTabBarController: ESTabBarController {
 
     override func setupUI() {
 
-        let v1 = HouseViewController()
+        let v1 = MainViewController()
         let v2 = HomePageViewController()
 
-        let content1 = BaseTabBarItemContentView()
-        let content2 = BaseTabBarItemContentView()
-
-        v1.tabBarItem = ESTabBarItem.init(content1, title: "列表", image: UIImage(named: "Houses"), selectedImage: UIImage(named: "Houses"))
-        v2.tabBarItem = ESTabBarItem.init(content2, title: "我的", image: UIImage(named: "Home_Page"), selectedImage: UIImage(named: "Home_Page"))
+        v1.tabBarItem = ESTabBarItem.init(BaseTabBarItemContentView(), title: "列表", image: UIImage(named: "Houses"), selectedImage: UIImage(named: "Houses"))
+        v2.tabBarItem = ESTabBarItem.init(BaseTabBarItemContentView(), title: "我的", image: UIImage(named: "Home_Page"), selectedImage: UIImage(named: "Home_Page"))
 
         let n1 = BaseNavigationController.init(rootViewController: v1)
         let n2 = BaseNavigationController.init(rootViewController: v2)

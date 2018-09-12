@@ -11,6 +11,12 @@ import UIKit
 
 public extension UIDevice {
 
+    // 获取app名字
+    public class func appName() -> String {
+        let appName:String = (Bundle.main.infoDictionary?["CFBundleDisplayName"] ?? "算你妹") as! String
+        return appName
+    }
+
     public class func uuidString() -> String? {
         return UIDevice.current.identifierForVendor?.uuidString
     }

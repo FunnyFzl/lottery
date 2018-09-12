@@ -16,7 +16,7 @@ enum KaitiSC: String {
 
 extension UIFont {
 
-    class func themeFont(_ value: CGFloat) -> UIFont {
+    class func fontTheme(_ value: CGFloat) -> UIFont {
         return UIFont(name: KaitiSC.brushXingshu.rawValue, size: value)!
     }
 

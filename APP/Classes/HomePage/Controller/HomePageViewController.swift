@@ -14,6 +14,14 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = "Funny"
 
-        view.backgroundColor = .red
+
+
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        print()
+        view.backgroundColor = UIColor.random
     }
 }
